@@ -7,5 +7,5 @@ puts "Travail : #{number_of_hours_worked_per_day * number_of_days_worked_per_wee
 # Nous affichons ensuite "Travail : " et le résultat de la multiplication de ces 3 variables, soit 550.
 
 puts "Et en minutes ça fait : #{number_of_minutes_in_an_hour * number_of_hours_worked_per_day * number_of_days_worked_per_week * number_of_weeks_in_THP}"
-# La seconde version affichier "Travail : 550" mais aussi un message derreur car la variable 'number_of_minutes_in_an_hour' est inconnue
+# La seconde version affiche "Travail : 550" mais aussi un message d'erreur car la variable 'number_of_minutes_in_an_hour' est inconnue
 # Ruby nous propose de remplacer cette dernière par la variable number_of_weeks_in_THP
